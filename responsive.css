@@ -1,0 +1,163 @@
+body{
+  overflow-x: hidden;
+}
+@media (max-width:1350px){
+  .pricing-table {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    margin: 30px 4px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width:978px){
+  .t-contant.left {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    width: 74%;
+  }
+  .botton {
+    text-align: left;
+  }
+    .text-content {
+      width: 100%;
+      padding: 5px 20px;
+  }
+  .video-content {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .text-content h2 {
+    font-size: 40px;
+}
+.text-content p {
+  font-size: 16px;
+  margin-top: 21px;
+}
+.sevice-section {
+  margin-top: -120px;
+}
+.sevice-section h3 {
+  font-size: 40px;
+}
+.sevice-section p{
+  font-size: 16px;
+}
+.service-box {
+  width: 48%;
+  float: left;
+}
+.service-content h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.title h2 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.first {
+  width: 42%;
+  margin: 12px 20px;
+}
+.google-map.left {
+  width: 100%;
+  padding: 10px 20px;
+}
+.contract-writing {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+@media (max-width:800px){
+  .text {
+    margin-top: 160px;
+  }
+  .kissulekha p {
+    font-size: 16px;
+    margin-bottom: 9px;
+  }
+    .kissulekha h2{
+      font-size: 35px;
+  }
+  .pothom {
+    width: 95%;
+    margin: 20px 10px;
+}
+  .ditio{
+    width: 95%;
+
+}
+.small {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.big {
+  width: 100%;
+}
+}
+@media (max-width:610px){
+  .menu {
+    width: 100%;
+  }
+  .botton {
+    text-align: center;
+    padding-bottom: 11px;
+  }
+  .menu {
+    margin-bottom: -30px;
+  }
+  .text p {
+    font-size: 20px;
+  }
+  .text h2 {
+    font-size: 40px;
+  }
+  .banner-btn a {
+    font-size: 12px;
+  }
+  .sub-btn {
+    margin-left: 5px;
+}
+.sned-email {
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width:769px){
+  .service-box {
+    width: 100%
+  }
+  .ditio {
+    width: 95%;
+    margin-right: 20px;
+}
+  
+}
+@media (max-width:450px){
+  .text {
+    margin-top: 290px;
+  }
+  .banner-btn a {
+    font-size: 12px;
+    margin-bottom: -10px;
+  }
+}
+
+@media (max-width:550px){
+  .first{
+    width: 90%;
+}
+}
