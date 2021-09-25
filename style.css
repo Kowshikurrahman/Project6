@@ -86,7 +86,6 @@ body{
 }
 
 .botton{
-  width:15%;
   text-align: right;
 }
 span.btn {
@@ -166,7 +165,9 @@ span.btn:hover a{
 .banner-section{
   background: url(./mbr-4.jpg) no-repeat center center;
   background-size: cover;
-  padding: 170px;
+  height: 100vh;
+  align-items: center;
+  display: flex;
   position: relative;
   z-index: 1;
 }
@@ -297,8 +298,14 @@ span.btn:hover a{
 .pricing-table:nth-child(3){
     margin-right: 0;
 }
+.pricing-table.shadow {
+  width: 100%;
+}
 .price {
     border-bottom: 1px solid #a59f9f;
+}
+.title h2 {
+  margin: 80px 0;
 }
 .price h1 {
     margin: 35px 35px;
